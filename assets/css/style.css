@@ -1,0 +1,164 @@
+/* Estilo pagina index*/
+.center{
+    text-align: center;
+    color: black;
+    font-size: 80px;
+}
+.justify{
+    text-align: justify;
+    font-size: 30px;
+    color: black;
+    
+}
+.container{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center; /* alinha itens verticalmente*/
+}
+
+#menu li{
+
+    display: inline;
+    padding: 30px;
+    font-size: 40px;
+    
+    
+}
+
+#menu li a {
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+#menu li a:hover{
+
+    color: grey;
+}
+
+.titulo{
+
+    background-color:#84817a;
+    margin:100px;
+    margin-bottom: 30px;
+    border-radius: 1rem;
+}
+.p-30{
+
+padding: 30px;
+
+}
+.br-50{
+    border-radius: 10%;
+}
+
+.wh-300{
+    width: 50px;
+    height: 50px;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+
+    margin-bottom: 50px;
+    
+}
+
+body{
+    background-color:#303952;
+}
+
+.sobre{
+    background-color:#84817a;
+    padding: 9%;
+    height: 350px;
+
+}
+.atletas{
+
+    display: flex;
+}
+.imgatleta{
+    width: 600px;
+    padding: 20px;
+}
+.footer{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Estilo pagina contato*/
+
+.clube1{
+
+    display: flex;
+    padding: 30px;
+    padding-left: 5rem;
+    background-color: black;
+    align-items: center;
+}
+
+.clube2{
+    display: flex;
+    background-color: black;
+}
+.descclubes{
+    text-align:left;
+    font-size: 40px;
+    background-color:#ccae62;
+    width: 600px;
+    border-radius: 5px;
+    margin-left: 700px;
+
+}
+.imgclube{
+    margin: 40px;
+    margin-left: 200px;
+}
+.imgmap{
+    margin: 40px;
+}
+.form{
+
+    margin-left: 700px;
+    
+}
+
+.form h2{
+    font-size: 60px;
+}
+
+.form label{
+    font-size: 35px;
+
+}
+
+.form input{
+    width: 40rem;
+    height: 2rem;
+}
+
+.form textarea{
+    width: 47rem;
+    height: 8rem;
+}
+.button{
+    font-size: 30px;
+    background-color: cadetblue;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-bottom: 1rem;
+}
+
+.form1{
+
+    background-color: grey;
+    
+}

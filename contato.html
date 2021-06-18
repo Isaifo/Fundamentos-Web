@@ -4,48 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Clubes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Clubes</a></li>
         
     </ul>
-    <h1>Clubes em São Paulo</h1>
-    <form>
-        <br>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="nome">
-        <br>
-        <br>
-        <label for="assunto">Mensagem para o clube:</label>
-        <br>
-        <textarea name="assunto" id="assunto" cols="50" 
-        rows="6"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-        <br>
-    </form>
+    <h1 class="center titulo">Clubes em São Paulo</h1>
+   
 
-    <h2>Endereço:</h2>
-    <h3>Itaim Keiko</h3>
-    <p>Rua Paracatu,490</p>
-    <p>São Paulo - SP</p>
-    <img src="assets/img/itaim.jpg" alt="Clube Itaim keiko">
-    <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.510349676125!2d-46.63911828502097!3d-23.621887484652806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a569f1a7d15%3A0xd15133660904658c!2sItaim%20Keiko!5e0!3m2!1spt-BR!2sbr!4v1623858054990!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="clubes">
+                <h3 class="descclubes">Itaim Keiko - Rua Paracatu, 490</h3>
+                <div class="clube1">        
+                <div class="imgclube"><img src="assets/img/itaim.jpg" alt="Clube Itaim keiko"></div>
+                
+                <br>
+                <div class="imgmap"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.510349676125!2d-46.63911828502097!3d-23.621887484652806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a569f1a7d15%3A0xd15133660904658c!2sItaim%20Keiko!5e0!3m2!1spt-BR!2sbr!4v1623858054990!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+               
+                </div>
 
-    <h3>Tênis de Mesa Casa Verde</h3>
-    <p>Rua Ana Ribeiro,89</p>
-    <p>São Paulo - SP</p>
-    <img src="assets/img/casav.jpg" alt="Clube Okinawa Casa Verde">
-    <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.005547317518!2d-46.652825385023476!3d-23.49630968471519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7bff9cde1db%3A0x1b7f4a20a2324138!2sT%C3%AAnis%20De%20Mesa%20Casa%20Verde!5e0!3m2!1spt-BR!2sbr!4v1623858285078!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+                <h3 class="descclubes">Tênis de mesa Casa Verde - Rua Ana Ribeiro, 89</h3> 
+                <div class="clube2">
+
+                <div class="imgclube"> <img class="imgclube" src="assets/img/casav.jpg" alt="Clube Okinawa Casa Verde"></div>
+                <br>
+                <div class="imgmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.005547317518!2d-46.652825385023476!3d-23.49630968471519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7bff9cde1db%3A0x1b7f4a20a2324138!2sT%C3%AAnis%20De%20Mesa%20Casa%20Verde!5e0!3m2!1spt-BR!2sbr!4v1623858285078!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+            </div>
+            </div>
+
+    
+    <hr>
+
+    <div class="form1">
+
+        <form class="form">
+            <h2 >Mande uma mensagem:</h2>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="nome">
+            <br>
+            <br>
+            <label for="assunto">Mensagem para o clube:</label>
+            <br>
+            <textarea name="assunto" id="assunto" cols="50" 
+            rows="6"></textarea>
+            <br>
+            <br>
+            <button class="button">Enviar</button>
+            <br>
+        </form>
+    </div>
+
+
+
+    <footer>
+        <div class="container mb-50 center">
+
+
+            <a href="https://www.facebook.com/" target="_blank"><img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin"></a>
+            <a href="https://www.instagram.com/"target="_blank"><img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram"></a>
+            <a href="https://www.google.com/intl/pt-BR/gmail/about/"target="_blank"><img class="tm-social p-30" src="assets/img/gmail.png" alt="Logo do gmail"></a>
+            
+            
+            
+        </div>
+        <p class="footer">Todos os direitos reservados: Isadora Fernandes &copy</p>
+        
+    </footer>
+
+
+    
 </body>
 </html>
