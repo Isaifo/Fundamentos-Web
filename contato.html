@@ -22,7 +22,7 @@
                 <div class="imgclube"><img src="assets/img/itaim.jpg" alt="Clube Itaim keiko"></div>
                 
                 <br>
-                <div class="imgmap"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.510349676125!2d-46.63911828502097!3d-23.621887484652806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a569f1a7d15%3A0xd15133660904658c!2sItaim%20Keiko!5e0!3m2!1spt-BR!2sbr!4v1623858054990!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                <div class="imgmap"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.510349676125!2d-46.63911828502097!3d-23.621887484652806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a569f1a7d15%3A0xd15133660904658c!2sItaim%20Keiko!5e0!3m2!1spt-BR!2sbr!4v1623858054990!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe></div>
                
                 </div>
 
@@ -45,20 +45,21 @@
             <h2 >Mande uma mensagem:</h2>
             <br>
             <label for="nome">Nome:</label>
-            <input type="text" id="nome">
-            <br>
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="txtNome"></div>
             <br>
             <label for="email">Email:</label>
-            <input type="email" id="nome">
-            <br>
+            <input type="email" id="nome" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
+            
             <br>
             <label for="assunto">Mensagem para o clube:</label>
             <br>
             <textarea name="assunto" id="assunto" cols="50" 
-            rows="6"></textarea>
+            rows="6" onkeyup="validaAssunto()"></textarea>
+            <div id="txtAssunto"></div>
             <br>
-            <br>
-            <button class="button">Enviar</button>
+            <button class="button" onclick="enviar()">Enviar</button>
             <br>
         </form>
     </div>
@@ -80,7 +81,7 @@
         
     </footer>
 
-
+<script src="assets/js/script.js"></script>
     
 </body>
 </html>
